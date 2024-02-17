@@ -160,12 +160,12 @@ function TodoApp() {
                                                     <option value="pending">Pending</option>
                                                 </select>
                                             </div>
-                                        </div>
 
                                         <div className="col-12 d-flex">
                                             <div className='col-6'><button onClick={() => handleEdit(index)} className='Edit fw-bolder text-white'>Edit</button></div><div className='col-6'><button className='Delete fw-bolder text-white' onClick={() => handleDelete(index)}>Delete</button></div>
                                         </div>
                                     </div>
+                                        </div>
 
                                 )}
                             </div>
